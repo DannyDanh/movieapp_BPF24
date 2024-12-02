@@ -48,7 +48,10 @@
   left: 50%; 
   padding: 50px;
   transform: translateX(-50%);
-  background-color: #242424; 
+  /* background-color: #242424; 
+   */
+   background-color: #ffffff;
+  background-image: url('https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-14_856985d9.jpeg');
   width: 100%;
 }
 .search-bar {
@@ -76,19 +79,25 @@
 }
 
 .movie-list{
-  margin-top: 200px;
+  margin-top: 250px;
   padding: 20px;
   display: grid; 
   grid-template-columns: repeat(3, 1fr); 
-  gap: 40px;
+  gap: 50px;
   
 
 }
 
 .movie-list img {
+  margin: 10px;
   width: 100%; 
   height: auto; 
   border-radius: 15px; 
   border: 2px solid #ddd; 
  
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.7);
 }

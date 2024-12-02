@@ -5,7 +5,9 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
+  background-color: #ffffff;
+  background-image: url('https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-14_856985d9.jpeg');
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -66,3 +68,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
